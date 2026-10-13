@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Padmapriya V | AI Engineer & Data Analytics Portfolio</title>
+  <meta name="description" content="Portfolio of Padmapriya V — Final-year AI & Data Science student, Generative AI practitioner, Digital Twins developer, and Machine Learning enthusiast." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ambient Glow Backgrounds -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="dot"></span>
+        <span>Padmapriya<span class="gradient-text">.ai</span></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="btn btn-secondary btn-sm" id="openResumeBtn">
+          <i class="fa-solid fa-file-lines"></i> View Resume
+        </button>
+        <a href="https://github.com/padmapriya-a-byte" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-info">
+            <div class="hero-badge">
+              <i class="fa-solid fa-circle-check"></i> Available for AI & Data Roles • 2027 Grad
+            </div>
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Padmapriya V</span>
+            </h1>
+            <p style="font-size: 1.35rem; font-weight: 600; color: #38bdf8; margin-bottom: 0.8rem; font-family: var(--font-mono);">
+              AI Engineering | Data Analytics Candidate
+            </p>
+            <p class="hero-lead">
+              Final-year B.Tech in Artificial Intelligence & Data Science with hands-on experience in 
+              <strong>Digital Twins</strong>, <strong>Deep Learning (U-Net, CNN)</strong>, <strong>Generative AI & LLMs</strong>, 
+              and full-stack frontend integration. Building intelligent systems that bridge real-world physical workflows and neural intelligence.
+            </p>
+            
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fa-solid fa-laptop-code"></i> Explore Projects
+              </a>
+              <button class="btn btn-secondary" id="heroResumeBtn">
+                <i class="fa-solid fa-file-pdf"></i> Resume Preview
+              </button>
+              <a href="#contact" class="btn btn-outline">
+                <i class="fa-solid fa-envelope"></i> Get In Touch
+              </a>
+            </div>
+
+            <div class="hero-socials">
+              <span>Connect:</span>
+              <a href="https://github.com/padmapriya-a-byte" target="_blank" rel="noopener noreferrer" class="social-link">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a href="https://linkedin.com/in/padmapriya-v-546393353" target="_blank" rel="noopener noreferrer" class="social-link">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+              </a>
+              <a href="mailto:padmapriya6373@gmail.com" class="social-link">
+                <i class="fa-solid fa-paper-plane"></i> Email
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual with Avatar & Floating Tech Badges -->
+          <div class="hero-visual">
+            <div class="avatar-wrapper">
+              <div class="avatar-inner">
+                <img src="assets/avatar.png" alt="Padmapriya V" class="avatar-img" onerror="this.src='https://avatars.githubusercontent.com/u/210979186?v=4'" />
+              </div>
+            </div>
+
+            <div class="floating-card float-top-left">
+              <i class="fa-solid fa-industry" style="color: #38bdf8;"></i>
+              <div>
+                <div style="font-size: 0.72rem; color: #94a3b8;">OptiFlow TN</div>
+                <div style="color: #fff;">Piloted @ ICF Chennai</div>
+              </div>
+            </div>
+
+            <div class="floating-card float-mid-left">
+              <i class="fa-solid fa-seedling" style="color: #34d399;"></i>
+              <div>
+                <div style="font-size: 0.72rem; color: #94a3b8;">Agri-Neural Twin</div>
+                <div style="color: #fff;">38+ Districts Intelligence</div>
+              </div>
+            </div>
+
+            <div class="floating-card float-bottom-right">
+              <i class="fa-solid fa-brain" style="color: #c084fc;"></i>
+              <div>
+                <div style="font-size: 0.72rem; color: #94a3b8;">Generative AI</div>
+                <div style="color: #fff;">Gemini, GPT-2 & Pix2Pix</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Metrics Stats Row -->
+        <div class="stats-bar">
+          <div class="stat-item">
+            <div class="stat-num">8.6<span style="font-size: 1.2rem; color: var(--accent-green);">/10</span></div>
+            <div class="stat-label">CGPA @ Anna University</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num" id="repoCountDisplay">14+</div>
+            <div class="stat-label">GitHub Repos & Prototypes</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">3</div>
+            <div class="stat-label">Internships (Frontend, ML & GenAI)</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">1</div>
+            <div class="stat-label">Industrial Pilot (ICF Chennai)</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Bridging AI Research & Real-World Application</h2>
+          <p class="section-subtitle">
+            Curious about solving grounded problems with neural networks, data-driven automation, and intuitive user experiences.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am a final-year <strong>B.Tech student in Artificial Intelligence and Data Science</strong> at 
+              C. Abdul Hakeem College of Engineering and Technology (Anna University). My journey centers around building 
+              practical, deployable systems rather than just textbook models.
+            </p>
+            <p>
+              From conceptualizing <strong>OptiFlow TN</strong>—an industrial digital twin piloted at <em>ICF Chennai</em>—to 
+              authoring the <strong>Agri-Neural Twin</strong> for 38+ districts across Tamil Nadu, I specialize in combining 
+              predictive machine learning, real-time visual dashboards, and multimodal Generative AI.
+            </p>
+            <p>
+              I have also engineered deep learning pipelines for <strong>astronomical image denoising and enhancement</strong> 
+              using CNNs, Autoencoders, and U-Net architectures, alongside developing interactive web prototypes for 
+              Pix2Pix image translation, Neural Style Transfer, and GPT-2 text synthesis.
+            </p>
+
+            <div class="highlight-badges">
+              <span class="pill-badge"><i class="fa-solid fa-check" style="color: var(--accent-green);"></i> Digital Twins & 3D Simulation</span>
+              <span class="pill-badge"><i class="fa-solid fa-check" style="color: var(--accent-green);"></i> Deep Learning & Computer Vision</span>
+              <span class="pill-badge"><i class="fa-solid fa-check" style="color: var(--accent-green);"></i> LLM & Prompt Engineering</span>
+              <span class="pill-badge"><i class="fa-solid fa-check" style="color: var(--accent-green);"></i> Full-Stack React & Python</span>
+            </div>
+          </div>
+
+          <div class="about-cards-grid">
+            <div class="feature-box">
+              <div class="box-icon icon-blue">
+                <i class="fa-solid fa-cubes"></i>
+              </div>
+              <h4>Digital Twins</h4>
+              <p>Turning manufacturing & agrarian sensor streams into real-time interactive 3D simulations.</p>
+            </div>
+
+            <div class="feature-box">
+              <div class="box-icon icon-green">
+                <i class="fa-solid fa-seedling"></i>
+              </div>
+              <h4>Smart Agriculture</h4>
+              <p>Predicting soil NPK nutrient runoff, forecasting market gluts, and advising farmers via multilingual AI.</p>
+            </div>
+
+            <div class="feature-box">
+              <div class="box-icon icon-purple">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </div>
+              <h4>Generative AI & LLMs</h4>
+              <p>Fine-tuning prompts, integrating Gemini & Claude, and deploying text/image generation apps.</p>
+            </div>
+
+            <div class="feature-box">
+              <div class="box-icon icon-amber">
+                <i class="fa-solid fa-satellite-dish"></i>
+              </div>
+              <h4>Image Processing</h4>
+              <p>Astronomical image enhancement with CNN, Autoencoders, Gaussian filtering, and U-Net.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section (Internships) -->
+    <section class="section" id="experience" style="background: rgba(15, 23, 42, 0.25);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career Milestones</span>
+          <h2 class="section-title">Internship Experience</h2>
+          <p class="section-subtitle">
+            Hands-on industry and remote internships across front-end engineering, machine learning pipelines, and prompt engineering.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Front-End Developer Intern</h3>
+                  <div class="timeline-company">Strydo Technologies Pvt. Ltd. • Vellore, India</div>
+                </div>
+                <span class="timeline-badge">On-Site Internship</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Gained practical industry experience in front-end architecture and component development through internship tasks and client project workflows.</li>
+                <li>Worked with modern web technologies (HTML, CSS, JavaScript, React concepts) to support user-interface implementation and responsive application presentation.</li>
+                <li>Collaborated with design and engineering teams to ensure pixel-perfect layout execution and cross-browser accessibility.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Machine Learning Intern</h3>
+                  <div class="timeline-company">Prodigy InfoTech • Remote</div>
+                </div>
+                <span class="timeline-badge">Machine Learning & Data</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Worked on Python-based supervised learning tasks involving regression, classification, and exploratory data analysis.</li>
+                <li>Practiced robust end-to-end data preprocessing: handling missing features, outlier detection, scaling, and feature engineering.</li>
+                <li>Conducted systematic model evaluation (Accuracy, F1-Score, RMSE, ROC-AUC) and hyperparameter tuning to optimize model stability.</li>
+                <li>Implemented deep learning showcases including Neural Style Transfer and Pix2Pix Conditional GANs.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Prompt Engineering & AI Intern</h3>
+                  <div class="timeline-company">SkillCraft Technology • Remote</div>
+                </div>
+                <span class="timeline-badge">Generative AI</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Designed, tested, and refined advanced prompt structures (Zero-shot, Few-shot, Chain-of-Thought) for Generative AI and LLM use cases.</li>
+                <li>Evaluated LLM outputs across OpenAI, Google Gemini, and Anthropic Claude models to minimize hallucinations and maximize response relevance.</li>
+                <li>Documented best practices for prompt templates, system instructions, and structured output formatting (JSON/Markdown) for downstream integration.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Work</span>
+          <h2 class="section-title">Projects & Prototypes</h2>
+          <p class="section-subtitle">
+            Real-world systems, digital twins, and research-grade deep learning tools. Accessible directly on GitHub.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="digital-twin">Digital Twins & AI</button>
+          <button class="filter-btn" data-filter="deep-learning">Deep Learning & Vision</button>
+          <button class="filter-btn" data-filter="gen-ai">Generative AI & LLMs</button>
+          <button class="filter-btn" data-filter="fullstack">Civic & Web Apps</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projectsGrid">
+          
+          <!-- Project 1: OptiFlow TN -->
+          <div class="project-card" data-category="digital-twin">
+            <div class="card-banner" style="background: linear-gradient(135deg, #0c2340 0%, #0369a1 100%);">
+              <span class="banner-badge" style="background: #0284c7;">ICF Chennai Pilot</span>
+              <div class="banner-icon">🏭</div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                <span>OptiFlow TN</span>
+                <a href="https://github.com/padmapriya-a-byte/optiflow-digital-twin" target="_blank" rel="noopener noreferrer" title="View Source on GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <div class="card-subtitle">AI-Powered Industrial Digital Twin Platform (OptiFlow 5.0)</div>
+              <p class="card-desc">
+                An intelligent Digital Twin platform that turns factory floor sensor and operational data into interactive, real-time 3D models with autonomous AGV fleet management.
+              </p>
+              <ul class="card-bullets">
+                <li>Piloted and validated at <strong>Integral Coach Factory (ICF) Chennai</strong>.</li>
+                <li>Autonomous AGV fleet routing using <strong>A*, BFS, and Dijkstra</strong> pathfinding algorithms.</li>
+                <li>Predictive maintenance analytics and AI-assisted decision-support dashboard.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Three.js</span>
+                <span class="tech-tag">Socket.IO</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">Data Viz</span>
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-secondary btn-sm open-details-btn" data-project="optiflow">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+                <a href="https://github.com/padmapriya-a-byte/optiflow-digital-twin" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <i class="fa-brands fa-github"></i> GitHub Repo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Agri-Neural Twin -->
+          <div class="project-card" data-category="digital-twin">
+            <div class="card-banner" style="background: linear-gradient(135deg, #064e3b 0%, #059669 100%);">
+              <span class="banner-badge" style="background: #10b981;">38+ Districts</span>
+              <div class="banner-icon">🌱</div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                <span>Agri-Neural Twin</span>
+                <a href="https://github.com/padmapriya-a-byte/agri-neural" target="_blank" rel="noopener noreferrer" title="View Source on GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <div class="card-subtitle">Smart Agriculture Digital Twin & District Intelligence</div>
+              <p class="card-desc">
+                Next-generation district intelligence and agricultural risk engine tailored for Tamil Nadu, combining historical soil telemetry with neural simulations.
+              </p>
+              <ul class="card-bullets">
+                <li>Analyzes real-time NPK soil health, water tables, and climate telemetry across 38+ districts.</li>
+                <li>AI Risk Engine conducting "What-If" simulations for 1,000 future seasons to prevent market gluts.</li>
+                <li>Multilingual farming assistant powered by <strong>Google Gemini AI</strong> and geospatial mapping.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">React 19</span>
+                <span class="tech-tag">Gemini AI</span>
+                <span class="tech-tag">Supabase</span>
+                <span class="tech-tag">Vite</span>
+                <span class="tech-tag">Geospatial Mapping</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-secondary btn-sm open-details-btn" data-project="agrineural">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+                <a href="https://github.com/padmapriya-a-byte/agri-neural" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <i class="fa-brands fa-github"></i> GitHub Repo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Astronomical Image Processing -->
+          <div class="project-card" data-category="deep-learning">
+            <div class="card-banner" style="background: linear-gradient(135deg, #2e1065 0%, #7c3aed 100%);">
+              <span class="banner-badge" style="background: #8b5cf6;">Deep Learning</span>
+              <div class="banner-icon">🔭</div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                <span>Astronomical Image Processing</span>
+                <a href="https://github.com/padmapriya-a-byte/iarrd-project" target="_blank" rel="noopener noreferrer" title="View Source on GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <div class="card-subtitle">Deep Learning Image Enhancement (IARRD Project)</div>
+              <p class="card-desc">
+                Automated computer vision and deep learning workflow designed to enhance noisy telescope imagery and isolate celestial bodies and astronomical features.
+              </p>
+              <ul class="card-bullets">
+                <li>Explored <strong>CNN, Autoencoder, and U-Net</strong> architectures for denoising and feature extraction.</li>
+                <li>Client-side prototype with Gaussian blur sigma tuning, threshold segmentation, and celestial centroid detection.</li>
+                <li>Local feature DB storage, JSON export pipeline, and scalable architecture for server-side GPU inference.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Deep Learning</span>
+                <span class="tech-tag">CNN</span>
+                <span class="tech-tag">Autoencoder</span>
+                <span class="tech-tag">U-Net</span>
+                <span class="tech-tag">React UI</span>
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-secondary btn-sm open-details-btn" data-project="astronomy">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+                <a href="https://github.com/padmapriya-a-byte/iarrd-project" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <i class="fa-brands fa-github"></i> GitHub Repo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: CivicFix -->
+          <div class="project-card" data-category="fullstack">
+            <div class="card-banner" style="background: linear-gradient(135deg, #1e293b 0%, #334155 100%);">
+              <span class="banner-badge" style="background: #f59e0b;">Smart City</span>
+              <div class="banner-icon">🏛️</div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                <span>CivicFix</span>
+                <span title="Concept & Prototype"><i class="fa-solid fa-code-branch"></i></span>
+              </div>
+              <div class="card-subtitle">AI-Powered Civic Issue Reporting System</div>
+              <p class="card-desc">
+                A multi-channel civic issue reporting platform engineered to streamline citizen complaint management through automated AI verification and tracking.
+              </p>
+              <ul class="card-bullets">
+                <li>Supports multi-modal input: text grievance, voice recordings, photographic evidence, and precise GPS coordinates.</li>
+                <li>AI-assisted complaint classification, duplicate detection, and verification logic.</li>
+                <li>Administrative tracking dashboard providing heatmaps and issue resolution turnaround metrics.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">Supabase</span>
+                <span class="tech-tag">GPS Integration</span>
+                <span class="tech-tag">Speech-to-Text</span>
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-secondary btn-sm open-details-btn" data-project="civicfix">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+                <a href="https://github.com/padmapriya-a-byte" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i> Padmapriya Profile
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: Neural Style Transfer App -->
+          <div class="project-card" data-category="deep-learning">
+            <div class="card-banner" style="background: linear-gradient(135deg, #831843 0%, #db2777 100%);">
+              <span class="banner-badge" style="background: #ec4899;">TensorFlow</span>
+              <div class="banner-icon">🎨</div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                <span>Neural Style Transfer</span>
+                <a href="https://github.com/padmapriya-a-byte/Neural_Style_Transfer_app" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <div class="card-subtitle">Deep Learning Artistic Synthesis (Flask + TF)</div>
+              <p class="card-desc">
+                Interactive web application applying deep convolutional neural networks to blend the aesthetic style of master artworks with user-provided photographs.
+              </p>
+              <ul class="card-bullets">
+                <li>Implemented Gram matrix feature loss and content loss optimization in TensorFlow.</li>
+                <li>Web interface built with Flask for upload, style selection, and synthesized image rendering.</li>
+                <li>Part of Prodigy InfoTech Generative AI internship showcase (Task-05).</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Deep Learning</span>
+                <span class="tech-tag">OpenCV</span>
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-secondary btn-sm open-details-btn" data-project="neuralstyle">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+                <a href="https://github.com/padmapriya-a-byte/Neural_Style_Transfer_app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <i class="fa-brands fa-github"></i> GitHub Repo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6: Pix2Pix Image Translation -->
+          <div class="project-card" data-category="gen-ai">
+            <div class="card-banner" style="background: linear-gradient(135deg, #134e4a 0%, #0d9488 100%);">
+              <span class="banner-badge" style="background: #14b8a6;">cGAN</span>
+              <div class="banner-icon">🖼️</div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                <span>Pix2Pix Image Translation</span>
+                <a href="https://github.com/padmapriya-a-byte/pix2pix_image_translation_app" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <div class="card-subtitle">Conditional Generative Adversarial Network</div>
+              <p class="card-desc">
+                Paired image-to-image translation utilizing Conditional GANs (U-Net generator with PatchGAN discriminator) for domain mapping.
+              </p>
+              <ul class="card-bullets">
+                <li>End-to-end implementation for paired synthesis tasks and data augmentation.</li>
+                <li>Adversarial training evaluation with L1 loss penalization for spatial consistency.</li>
+                <li>Generative AI internship showcase task with Jupyter notebooks and web wrapper.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">PyTorch / TF</span>
+                <span class="tech-tag">Pix2Pix cGAN</span>
+                <span class="tech-tag">Computer Vision</span>
+                <span class="tech-tag">Python</span>
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-secondary btn-sm open-details-btn" data-project="pix2pix">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+                <a href="https://github.com/padmapriya-a-byte/pix2pix_image_translation_app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <i class="fa-brands fa-github"></i> GitHub Repo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 7: Text Generation with GPT-2 -->
+          <div class="project-card" data-category="gen-ai">
+            <div class="card-banner" style="background: linear-gradient(135deg, #312e81 0%, #4338ca 100%);">
+              <span class="banner-badge" style="background: #6366f1;">Transformers</span>
+              <div class="banner-icon">📝</div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                <span>Text Generation (GPT-2)</span>
+                <a href="https://github.com/padmapriya-a-byte/Text-Generation-with-GPT-2_app" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <div class="card-subtitle">Transformer NLP Web Application</div>
+              <p class="card-desc">
+                Interactive web application harnessing OpenAI's GPT-2 transformer architecture for conditioned text generation, prompt completion, and creative writing.
+              </p>
+              <ul class="card-bullets">
+                <li>Configurable sampling parameters: Temperature, Top-K, Top-P (nucleus sampling), and Repetition Penalty.</li>
+                <li>Streamlined frontend interface allowing users to experiment with prompt completions in real-time.</li>
+                <li>Paired with deep exploratory notebook in repository `PRODIGY_GA_01`.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">HuggingFace</span>
+                <span class="tech-tag">GPT-2</span>
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">NLP</span>
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-secondary btn-sm open-details-btn" data-project="gpt2">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+                <a href="https://github.com/padmapriya-a-byte/Text-Generation-with-GPT-2_app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <i class="fa-brands fa-github"></i> GitHub Repo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 8: Stable Diffusion & Markov Apps -->
+          <div class="project-card" data-category="gen-ai">
+            <div class="card-banner" style="background: linear-gradient(135deg, #4c1d95 0%, #6d28d9 100%);">
+              <span class="banner-badge" style="background: #8b5cf6;">Generative Suite</span>
+              <div class="banner-icon">⚡</div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                <span>Stable Diffusion & Markov AI</span>
+                <a href="https://github.com/padmapriya-a-byte/image_generation_app" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <div class="card-subtitle">Multimodal Generative AI Experiments</div>
+              <p class="card-desc">
+                Exploratory web applications and Jupyter pipelines testing Latent Diffusion models for prompt-to-image synthesis alongside probabilistic Markov chain text generation.
+              </p>
+              <ul class="card-bullets">
+                <li>Diffusion scheduler parameter tuning, prompt negative conditioning, and step size tradeoffs.</li>
+                <li>Statistical n-gram language synthesis modeling in `markov_text_generation_app`.</li>
+                <li>Hands-on experience comparing autoregressive vs. diffusion paradigm behaviors.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">Stable Diffusion</span>
+                <span class="tech-tag">Markov Chains</span>
+                <span class="tech-tag">Diffusers</span>
+                <span class="tech-tag">Python</span>
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-secondary btn-sm open-details-btn" data-project="diffusion">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+                <a href="https://github.com/padmapriya-a-byte/image_generation_app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <i class="fa-brands fa-github"></i> GitHub Repo
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Live GitHub Repos Section -->
+    <section class="section" id="github-feed" style="background: rgba(15, 23, 42, 0.4);">
+      <div class="container">
+        <div class="github-feed-header">
+          <div>
+            <span class="section-tag">Direct GitHub Access</span>
+            <h2 style="font-size: 2rem;">All 14 Repositories & Packages</h2>
+            <p style="color: var(--text-muted); font-size: 0.95rem;">
+              Synced directly with <a href="https://github.com/padmapriya-a-byte" target="_blank" rel="noopener noreferrer">@padmapriya-a-byte</a>
+            </p>
+          </div>
+          <div style="display: flex; gap: 0.8rem;">
+            <button class="btn btn-secondary btn-sm" id="refreshReposBtn">
+              <i class="fa-solid fa-rotate-right"></i> Refresh Live
+            </button>
+            <a href="https://github.com/padmapriya-a-byte?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+              <i class="fa-brands fa-github"></i> Open GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="github-repos-grid" id="githubReposContainer">
+          <!-- Dynamically populated or pre-filled -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Core Competencies</span>
+          <h2 class="section-title">Technical Skills & Tooling</h2>
+          <p class="section-subtitle">
+            From algorithmic programming and machine learning pipelines to modern front-end engineering.
+          </p>
+        </div>
+
+        <div class="skills-wrapper">
+          <!-- Programming -->
+          <div class="skill-category">
+            <h3 class="category-title">
+              <i class="fa-solid fa-code" style="color: var(--primary);"></i> Programming
+            </h3>
+            <div class="skill-tags-group">
+              <span class="skill-pill"><i class="fa-brands fa-python"></i> Python</span>
+              <span class="skill-pill"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</span>
+              <span class="skill-pill"><i class="fa-solid fa-c"></i> C (Basic)</span>
+              <span class="skill-pill"><i class="fa-solid fa-database"></i> SQL</span>
+              <span class="skill-pill"><i class="fa-brands fa-html5"></i> HTML5</span>
+              <span class="skill-pill"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+            </div>
+          </div>
+
+          <!-- AI & Generative AI -->
+          <div class="skill-category">
+            <h3 class="category-title">
+              <i class="fa-solid fa-brain" style="color: var(--accent-purple);"></i> AI & Generative AI
+            </h3>
+            <div class="skill-tags-group">
+              <span class="skill-pill">Machine Learning</span>
+              <span class="skill-pill">Deep Learning (CNN)</span>
+              <span class="skill-pill">Autoencoder & U-Net</span>
+              <span class="skill-pill">Prompt Engineering</span>
+              <span class="skill-pill">LLM Applications</span>
+              <span class="skill-pill">Google Gemini</span>
+              <span class="skill-pill">ChatGPT / Claude</span>
+              <span class="skill-pill">Image Processing</span>
+              <span class="skill-pill">Classification & Regression</span>
+              <span class="skill-pill">Feature Engineering</span>
+              <span class="skill-pill">Model Evaluation</span>
+            </div>
+          </div>
+
+          <!-- Data Analysis -->
+          <div class="skill-category">
+            <h3 class="category-title">
+              <i class="fa-solid fa-chart-pie" style="color: var(--accent-green);"></i> Data Analytics
+            </h3>
+            <div class="skill-tags-group">
+              <span class="skill-pill">Pandas</span>
+              <span class="skill-pill">NumPy</span>
+              <span class="skill-pill">Matplotlib</span>
+              <span class="skill-pill">Excel / CSV Pipelines</span>
+              <span class="skill-pill">Data Pre-processing</span>
+              <span class="skill-pill">Hyperparameter Tuning</span>
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="skill-category">
+            <h3 class="category-title">
+              <i class="fa-solid fa-globe" style="color: #38bdf8;"></i> Web Development
+            </h3>
+            <div class="skill-tags-group">
+              <span class="skill-pill"><i class="fa-brands fa-react"></i> React (React 19)</span>
+              <span class="skill-pill">Three.js (Digital Twins)</span>
+              <span class="skill-pill">Socket.IO</span>
+              <span class="skill-pill">Vite</span>
+              <span class="skill-pill">Flask (Basics)</span>
+              <span class="skill-pill">Responsive UI / UX</span>
+            </div>
+          </div>
+
+          <!-- Tools & Platforms -->
+          <div class="skill-category">
+            <h3 class="category-title">
+              <i class="fa-solid fa-toolbox" style="color: var(--accent-amber);"></i> Tools & Platforms
+            </h3>
+            <div class="skill-tags-group">
+              <span class="skill-pill"><i class="fa-brands fa-git-alt"></i> Git</span>
+              <span class="skill-pill"><i class="fa-brands fa-github"></i> GitHub</span>
+              <span class="skill-pill">VS Code</span>
+              <span class="skill-pill">Google Colab</span>
+              <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">Supabase</span>
+              <span class="skill-pill"><i class="fa-brands fa-figma"></i> Figma</span>
+            </div>
+          </div>
+
+          <!-- Domain Interests -->
+          <div class="skill-category">
+            <h3 class="category-title">
+              <i class="fa-solid fa-compass" style="color: #f43f5e;"></i> Focus Areas
+            </h3>
+            <div class="skill-tags-group">
+              <span class="skill-pill">Industrial Digital Twins</span>
+              <span class="skill-pill">Precision Agriculture</span>
+              <span class="skill-pill">Astronomical Vision</span>
+              <span class="skill-pill">Smart Cities & Civic Tech</span>
+              <span class="skill-pill">Agentic Workflows</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education" style="background: rgba(15, 23, 42, 0.2);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academics</span>
+          <h2 class="section-title">Education & Credentials</h2>
+        </div>
+
+        <div class="education-card">
+          <div class="edu-icon-wrap">
+            <i class="fa-solid fa-graduation-cap" style="color: var(--primary);"></i>
+          </div>
+          <div class="edu-details">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 0.5rem;">
+              <div>
+                <h3>B.Tech, Artificial Intelligence and Data Science</h3>
+                <div class="edu-college">C. Abdul Hakeem College of Engineering and Technology</div>
+                <div style="color: var(--text-muted); font-size: 0.9rem;">Affiliated to Anna University • Tamil Nadu, India</div>
+              </div>
+              <span class="pill-badge" style="background: rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.3);">
+                <i class="fa-solid fa-calendar"></i> Expected Graduation: 2027
+              </span>
+            </div>
+
+            <div class="edu-meta" style="margin-top: 1.2rem;">
+              <div class="edu-cgpa">
+                <i class="fa-solid fa-award"></i> CGPA: 8.6 / 10.0
+              </div>
+              <div>
+                <i class="fa-solid fa-trophy" style="color: var(--accent-amber); margin-right: 0.3rem;"></i> 
+                Active Hackathon Participant & AI Prototype Builder
+              </div>
+            </div>
+
+            <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-muted);">
+              Key coursework includes: Data Structures & Algorithms, Artificial Intelligence, Machine Learning, Deep Learning, 
+              Database Management Systems, Object Oriented Programming, Statistics & Probability for Data Science.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">
+            Seeking entry-level opportunities in AI engineering, data analytics, and related software roles. 
+            Open for full-time roles, internships, and collaborative projects.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Direct Links -->
+          <div class="contact-info">
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div style="flex: 1;">
+                <div class="method-label">Direct Email</div>
+                <div class="method-val">padmapriya6373@gmail.com</div>
+              </div>
+              <button class="btn btn-secondary btn-sm" id="copyEmailBtn" title="Copy Email to Clipboard">
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+            </div>
+
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <div class="method-label">Phone / WhatsApp</div>
+                <div class="method-val">+91 7448551520</div>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div style="flex: 1;">
+                <div class="method-label">LinkedIn Profile</div>
+                <a href="https://linkedin.com/in/padmapriya-v-546393353" target="_blank" rel="noopener noreferrer" class="method-val" style="color: var(--primary);">
+                  padmapriya-v-546393353 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem;"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div style="flex: 1;">
+                <div class="method-label">GitHub Workspace</div>
+                <a href="https://github.com/padmapriya-a-byte" target="_blank" rel="noopener noreferrer" class="method-val" style="color: var(--primary);">
+                  github.com/padmapriya-a-byte <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem;"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Message Form -->
+          <div class="contact-form-wrap">
+            <h3 style="margin-bottom: 0.5rem;">Send a Message</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.5rem;">
+              Fill out this quick form to send me an inquiry or interview invitation.
+            </p>
+            <form id="contactForm">
+              <div class="form-group">
+                <label class="form-label" for="senderName">Your Name</label>
+                <input type="text" id="senderName" class="form-input" placeholder="e.g. Alex Johnson" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="senderEmail">Your Email</label>
+                <input type="email" id="senderEmail" class="form-input" placeholder="e.g. alex@company.com" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="senderSubject">Subject</label>
+                <input type="text" id="senderSubject" class="form-input" placeholder="e.g. Interview Opportunity / Project Collaboration" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="senderMessage">Message</label>
+                <textarea id="senderMessage" class="form-textarea" rows="4" placeholder="Hello Padmapriya, I was impressed by your OptiFlow & Agri-Neural projects..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <i class="fa-solid fa-paper-plane"></i> Send Email to Padmapriya
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/padmapriya-a-byte" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/padmapriya-v-546393353" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+      <p>© 2026 Padmapriya V. Built with high performance & passion for AI Engineering.</p>
+      <p style="margin-top: 0.4rem; font-size: 0.8rem; color: #475569;">
+        Hostable on GitHub Pages • Vercel • Netlify
+      </p>
+    </div>
+  </footer>
+
+  <!-- Resume Modal -->
+  <div class="modal-overlay" id="resumeModal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div style="display: flex; align-items: center; gap: 0.8rem;">
+          <h3 class="modal-title">Padmapriya V — Resume Preview</h3>
+          <span class="banner-badge" style="background: #0284c7;">PDF Format</span>
+        </div>
+        <div style="display: flex; gap: 0.8rem; align-items: center;">
+          <button class="btn btn-primary btn-sm" id="printResumeBtn">
+            <i class="fa-solid fa-print"></i> Print / Save PDF
+          </button>
+          <button class="modal-close" id="closeResumeBtn" aria-label="Close modal">&times;</button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="resume-sheet" id="resumeSheet">
+          <h2>PADMAPRIYA V</h2>
+          <div class="resume-subtitle">AI Engineering | Data Analytics Candidate</div>
+          <div class="resume-contacts">
+            padmapriya6373@gmail.com | +91 7448551520<br>
+            github.com/padmapriya-a-byte | linkedin.com/in/padmapriya-v-546393353
+          </div>
+
+          <h3>Professional Summary</h3>
+          <p>
+            Final-year B.Tech student in Artificial Intelligence and Data Science with internship and project experience in front-end development, Python-based AI/ML, deep learning, Generative AI, and prompt engineering. Built AI-powered application concepts for industrial monitoring, smart agriculture, and civic issue reporting using React, JavaScript, Python, and LLM-based tools, and developed deep learning workflows for astronomical image processing. Seeking entry-level opportunities in AI engineering, data analytics, or related technology roles.
+          </p>
+
+          <h3>Technical Skills</h3>
+          <p><strong>Programming:</strong> Python, JavaScript, C (basic), SQL</p>
+          <p><strong>AI & Generative AI:</strong> Machine Learning, Classification, Regression, Data Pre-processing, Feature Engineering, Model Evaluation, Deep Learning (CNN, Autoencoder, U-Net), Image Processing, Prompt Engineering, LLM Applications, Google Gemini, ChatGPT, Claude</p>
+          <p><strong>Data Analysis:</strong> Pandas, NumPy, Excel/CSV, Matplotlib</p>
+          <p><strong>Web Development:</strong> HTML, CSS, JavaScript, React</p>
+          <p><strong>Tools & Platforms:</strong> Git, GitHub, VS Code, Google Colab, MySQL, Supabase, Figma</p>
+
+          <h3>Internship Experience</h3>
+          <p><strong>Front-End Developer Intern | Strydo Technologies Pvt. Ltd. | Vellore</strong></p>
+          <ul>
+            <li>Gained practical experience in front-end development through internship tasks and project-based work.</li>
+            <li>Worked with web technologies to support user-interface implementation and application presentation.</li>
+          </ul>
+
+          <p><strong>Machine Learning Intern | Prodigy InfoTech | Remote</strong></p>
+          <ul>
+            <li>Worked on Python-based supervised learning tasks involving classification and regression.</li>
+            <li>Practiced data preprocessing, feature engineering, model evaluation, and hyperparameter tuning.</li>
+          </ul>
+
+          <p><strong>Prompt Engineering & AI Intern | SkillCraft Technology | Remote</strong></p>
+          <ul>
+            <li>Designed and refined prompts for Generative AI and large language model use cases.</li>
+            <li>Evaluated LLM outputs and documented prompt approaches to improve relevance and quality.</li>
+          </ul>
+
+          <h3>Projects</h3>
+          <p><strong>OptiFlow TN — AI-Powered Industrial Digital Twin Platform</strong></p>
+          <p><em>Technologies: Python, Machine Learning, React, Excel/CSV, Data Visualization, Three.js</em></p>
+          <ul>
+            <li>Created a digital-twin platform concept that turns factory data into interactive visual models.</li>
+            <li>Developed predictive-maintenance and AI-assisted decision-support features; project was piloted at ICF Chennai.</li>
+          </ul>
+
+          <p><strong>Agri-Neural Twin — Smart Agriculture Digital Twin</strong></p>
+          <p><em>Technologies: React, Gemini AI, Supabase, JavaScript, Geospatial Mapping</em></p>
+          <ul>
+            <li>Developed a precision-agriculture concept with nutrient-runoff prediction and multilingual AI assistance.</li>
+            <li>Designed a geospatial dashboard concept for farm-health monitoring and crop-management support.</li>
+          </ul>
+
+          <p><strong>CivicFix — AI-Powered Civic Issue Reporting System</strong></p>
+          <p><em>Technologies: React, Machine Learning, Supabase, GPS Integration</em></p>
+          <ul>
+            <li>Built a civic issue-reporting platform concept supporting text, voice, image, and GPS-based reports.</li>
+            <li>Added AI-assisted complaint verification and an administrative tracking dashboard concept.</li>
+          </ul>
+
+          <p><strong>Astronomical Image Processing — Deep Learning for Image Enhancement</strong></p>
+          <p><em>Technologies: Python, Deep Learning, CNN, Autoencoder, U-Net</em></p>
+          <ul>
+            <li>Developed deep learning workflows for astronomical image processing, enhancement, and feature extraction.</li>
+            <li>Explored CNN, Autoencoder, and U-Net architectures for image analysis, focusing on preprocessing techniques and AI-driven research applications.</li>
+          </ul>
+
+          <h3>Education</h3>
+          <p><strong>B.Tech, Artificial Intelligence and Data Science | C. Abdul Hakeem College of Engineering and Technology, Anna University</strong></p>
+          <p>Expected graduation: 2027 | CGPA: 8.6/10</p>
+
+          <h3>Additional Information</h3>
+          <ul>
+            <li>Participated in technical hackathons and completed internship assignments in front-end development, machine learning, and prompt engineering.</li>
+            <li>Interests: Generative AI, LLM applications, machine learning, data analytics, digital twins, and computer vision.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Details Modal -->
+  <div class="modal-overlay" id="projectDetailsModal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title" id="projModalTitle">Project Details</h3>
+        <button class="modal-close" id="closeProjModalBtn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body" id="projModalBody">
+        <!-- Content injected dynamically via script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <i class="fa-solid fa-circle-check" style="color: #34d399;"></i>
+    <span id="toastMsg">Action completed successfully</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
